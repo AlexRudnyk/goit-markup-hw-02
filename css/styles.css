@@ -1,12 +1,42 @@
 :root {
-    --primary-text-color: #212121;
-    --text-color: #757575;
-    --accent-color: #2196F3;
-    --hero-text-color: #FFFFFF;
-    --title-font: 
+  --primary-text-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --hero-text-color: #ffffff;
 }
 
 body {
-    font-family: roboto, sans-serif;
-    color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+  color: var(--primary-text-color);
+}
+
+.logo {
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.hero-title {
+  font-family: roboto, sans-serif;
+  font-weight: 900;
+  color: var(--hero-text-color);
+  background-color: grey;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.nav-link:hover {
+  color: var(--accent-color);
+}
+
+.nav-link.contact {
+    color: ;
 }
