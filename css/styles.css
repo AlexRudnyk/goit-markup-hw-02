@@ -3,6 +3,7 @@
   --text-color: #757575;
   --accent-color: #2196f3;
   --hero-text-color: #ffffff;
+  --primary-font-weight: 700;
 }
 
 body {
@@ -58,4 +59,53 @@ body {
   cursor: pointer;
   background-color: var(--accent-color);
   color: #FFFFFF;
+}
+
+.features-list {
+  list-style-type: none;
+}
+
+.features-title {
+  font-weight: var(--primary-font-weight);
+  line-height: 1.17;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.features-text {
+  color: var(--text-color);
+  line-height: 1.71;
+  font-size: 14px;
+}
+
+.examples-title {
+  font-weight: var(--primary-font-weight);
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.examples-list {
+  list-style-type: none;
+}
+
+.team-title {
+  font-weight: var(--primary-font-weight);
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.team-list {
+  list-style-type: none;
+}
+
+.team-list-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+}
+
+.team-list-text {
+  font-size: 16px;
+  line-height: 1.17;
+  color: var(--text-color);
 }
