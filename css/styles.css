@@ -122,6 +122,10 @@ body {
   list-style-type: none;
 }
 
+.team {
+  background-color: #f5f4fa;
+}
+
 .team-title {
   font-weight: var(--primary-font-weight);
   font-size: 36px;
@@ -163,6 +167,7 @@ body {
 
 .footer-list {
   list-style-type: none;
+  padding-left: 0px;
 }
 
 .footer-link {
