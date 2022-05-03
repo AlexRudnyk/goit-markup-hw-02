@@ -79,6 +79,10 @@ body {
   letter-spacing: 0.06em;
 }
 
+.btn:hover {
+  background-color: #188ce8;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
